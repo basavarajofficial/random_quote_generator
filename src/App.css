@@ -1,0 +1,49 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+
+
+#quote-box{
+  margin: auto auto;
+  background-color: aliceblue;
+  width: 700px;
+  height: 200px;
+   color: #333;
+   padding: 10px 37px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+}
+
+
+#quote-box p{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 25px;
+  font-size: 20px;
+  width: 100%;
+}
+
+.footer{
+  padding-top: 10px ;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button{
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 4px 10px;
+  font-size: medium;
+  cursor: pointer;
+}
