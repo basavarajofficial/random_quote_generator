@@ -6,7 +6,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 function Quotes() {
   const [index, setIndex] = useState(0);
 
-  const colors = ["red", "green", "yellow", "blue", "magenta", "cyan"];
+  const colors = ["red", "darkGreen", "brown", "blue", "magenta", "purple"];
   let colorIndex = Math.floor(Math.random() * colors.length);
 
   const { name, content } = quotes[index];
