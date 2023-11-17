@@ -17,7 +17,7 @@ function Quotes() {
 
   return (
     <div id="main" >
-      <h2>Welcome to Quote Generator</h2>
+      <h2 style={{color: 'navy'}}>Welcome to Quote Generator</h2>
       <div id="quote-box">
         <h2 id="text" style={{color: colors[colorIndex]}}>{content}</h2>
         <p id="author"> - {name}</p>
